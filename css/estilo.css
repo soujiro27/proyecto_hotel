@@ -9,9 +9,9 @@ body
 
 section#contenido
 {
-	width: 80%;
-	margin: 0 10%;
 	background: white;
+	margin: 0 10%;
+	width: 80%;
 }
 
 section#contenido figure
@@ -22,9 +22,9 @@ section#contenido figure
 
 section#contenido figure img
 {
-	width: 80px;
 	border-radius: 50%;	
-	margin:7px 0 0 0;
+	margin:10px 10px 0 0;
+	width: 80px;
 }
 
 section#contenido header
