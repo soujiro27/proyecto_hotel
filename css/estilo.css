@@ -1,0 +1,56 @@
+body
+{
+	background: #2c3e50;
+	font-size: 16px;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+section#contenido
+{
+	width: 80%;
+	margin: 0 10%;
+	background: white;
+}
+
+section#contenido figure
+{
+	float: right;
+}
+
+section#contenido figure img
+{
+	width: 80px;
+	border-radius: 50%;	
+}
+
+section#contenido header
+{
+	background: #3498db;
+	min-height: 82px;
+}
+
+section#contenido header h1,
+section#contenido header h2,
+section#contenido figure
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;	
+	vertical-align: middle;
+}
+
+
+section#contenido header h1
+{
+	background: white;
+	font-size: 45px;
+	padding: 7px;
+	width: 20%;
+}
+
+section#contenido header h2
+{
+	
+}
