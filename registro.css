@@ -1,0 +1,56 @@
+form
+{
+	background: blue;
+	width: 80%;
+	margin: 2% 2%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px black;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 30px;
+}
+
+label{
+	display: block;
+}
+
+
+
+input
+{
+	border-radius: 10px; 
+	margin-bottom: 20px;
+}
+
+article
+{
+	width: 100px;
+	height: 100px;
+	background: url(foto.jpg);
+	border-radius: 50px;
+	margin: 8% 85% 10% 38%;
+	background-size:  100px 100px;
+}
+
+
+article p
+{
+	padding-top: 25%;
+	vertical-align: top;
+	text-align: center;
+	color: white;
+}
+
+
+header h1
+{
+	text-shadow: 1px 1px 50px yellow;
+	text-align: center;
+	padding-top: -3%;
+	padding-bottom: -2%;
+}
+
+section {
+	display: inline-block;
+	text-align: top;
+}
