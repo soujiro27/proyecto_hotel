@@ -11,7 +11,7 @@ form
 }
 
 label{
-	display: block;
+	display: inline-block;
 }
 
 
@@ -22,15 +22,7 @@ input
 	margin-bottom: 20px;
 }
 
-article
-{
-	width: 100px;
-	height: 100px;
-	background: url(foto.jpg);
-	border-radius: 50px;
-	margin: 8% 85% 10% 38%;
-	background-size:  100px 100px;
-}
+
 
 
 article p
@@ -52,5 +44,5 @@ header h1
 
 section {
 	display: inline-block;
-	text-align: top;
+	vertical-align: top;
 }
