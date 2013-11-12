@@ -46,13 +46,22 @@ section#contenido figure
 
 section#contenido header h1
 {
-	background: white;
+	background: #e67e22;
+	border-radius: 0 20px 20px 0;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+	color: white;
 	font-size: 45px;
+	margin:8px 0 0 0;
 	padding: 7px;
 	width: 20%;
 }
 
 section#contenido header h2
 {
-
+	color: white;
+	font-size: 2em;
+	margin-left: 40px;
+	text-shadow:3px 3px 1px black;
 }
