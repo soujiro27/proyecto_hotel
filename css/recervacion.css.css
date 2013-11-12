@@ -1,0 +1,49 @@
+body 
+{
+	background: #D8D8D8;
+}
+img 
+{
+	width: 200px;
+	height: 100px;
+	margin: left;
+	float: right;
+}
+header
+{
+	background: yellow;
+}
+p
+{
+	text-align: right;
+}
+label
+{
+    display:inline-block;
+    margin-top:20px;
+}
+form
+{
+
+}
+#formulario1  
+{
+	width: 40%;
+	height: 30%;
+	background: #D8D8D8;
+	margin: 1%;
+	display: inline-block;
+}
+#formulario2
+{
+	display: inline-block;
+	width: 40%;
+	height: 30%;
+	background: #D8D8D8;
+	margin: 1%;
+
+}
+#folio
+{
+	text-align: center;
+}
