@@ -17,18 +17,20 @@ section#contenido
 section#contenido figure
 {
 	float: right;
+
 }
 
 section#contenido figure img
 {
 	width: 80px;
 	border-radius: 50%;	
+	margin:7px 0 0 0;
 }
 
 section#contenido header
 {
 	background: #3498db;
-	min-height: 82px;
+	min-height: 100px;
 }
 
 section#contenido header h1,
@@ -52,5 +54,5 @@ section#contenido header h1
 
 section#contenido header h2
 {
-	
+
 }
