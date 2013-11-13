@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
 <head>
 	<title>Reservaciones</title>
 	<meta charset="UTF-8">
 	<meta name="description" content=" El mejor servicio">
-	<link rel="stylesheet"  href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/recervacion.css">
 </head>
-<body>
+<body> 
 	<header>
-		<img src="img/a1.jpg">
-		<p>HOTEL MANAGEMENT SYSTE</p>
+    <div id="img">
+      <img src="img/a1.jpg">
+    </div> 
+		<h2>HOTEL MANAGEMENT SYSTE</h2>
 		<section id="formulario1">
 				<fieldset>
 				<legend>Recepción</legend>
-				<form>	
+				<form id="uno">	
 				<section id="folio">
 				<label for="">Folio</label>
       			<input type="text" name="" id="" />
@@ -38,11 +39,13 @@
       			<label for="">Personas</label>
       			<input type="number" name="" id="" />
 
+            <section id="ciudad">
       			<label for="">Ciudad</label>
       			<input type="text" name="" id="" />
 
       			<label for="">Obserbaciones</label>
       			<input type="text" name="" id="" />
+            </section>
 
       			<label for="">Celular</label>
       			<input type="text" name="" id="" />
@@ -50,12 +53,16 @@
       			<label for="">Casa</label>
       			<input type="text" name="" id="" />
 
+            <section id="email">
       			<label for="">E-mail</label>
       			<input type="text" name="" id="" />
+            </section>
 
+            <section id="botones">
       			<input type="submit" value="Aceptar" readonly="readonly" />
 
       			<input type="submit" value="Vaciar" readonly="readonly" />
+            </section>
       			</form>
 				</fieldset>
 			</section>
@@ -63,13 +70,15 @@
 			<section id="formulario2">
 				<fieldset>
 				<legend>Recepción</legend>
-				<form>	
+				<form>
+        
 				<label for="">Numero de Habitacion</label>
       			<input type="text" name="" id="" />
-      			
-      		
+          <section id="habita"> 
       			<label for="">Tipo de Cuarto</label>
       			<input type="text" name="" id="" />
+          </section>
+
       			<label>Tipo de Pago</label>
       			<select name="">
   						<option selected="selected" value=""></option>
@@ -77,15 +86,18 @@
   						<option value="3">Tarjeta</option>
   						<option value="3">Cheque</option>
   						<option value="3">Cortesia</option>
-				</select>
-
+				    </select>
+        
       		
 
       			<label for="">ID Cliente</label>
       			<input type="text" name="" id="" />
+            <p></p>
 
+        <setion id="anti">
       			<label for="">Anticipo</label>
       			<input type="text" name="" id="" />
+        </setion>
 
       			<label for="">Restante</label>
       			<input type="text" name="" id="" />
@@ -97,11 +109,13 @@
 			</section>
 	</header>
 
-	<input type="submit" value="Aceptar" readonly="readonly" />
-
+    <section id="boni">
+	  <input type="submit" value="Aceptar" readonly="readonly" />
     <input type="submit" value="Cancelar" readonly="readonly" />
-
     <input type="submit" value="Cerrar" readonly="readonly" />
+    </section>
+
+    
 
 </body>
 </html>
