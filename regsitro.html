@@ -13,20 +13,24 @@
 	</header>
 
 <section>
-<form>
+<form id="a1">
 	<label>FOLIO</label>
 	<input type="text">
+	<p></p>
 	<label>Nombre</label>
 	<input type="text">
 	<label>Apellido</label> <input type="text">
+	<p></p>
 	<label>Adultos</label> <input type="number">
 	<label>Niños</label> <input type="number">
-	<label>Adultos</label> <input type="number">
+	<p></p>
 	<label>Dias</label> <input type="number">
 	<label>Fecha entrada</label> <input type="date">
 	<label>Hora entrada</label> <input type="time">
 	<label>Fecha salida</label> <input type="date">
+	<label>Hora salida</label> <input type="time">
 	<label>E-mail</label> <input type="email">
+	<p></p>
 	<label>Casa</label> <input type="tel">
 	<label>Celular</label> <input type="tel">
 	<p>______________________________</p>
@@ -37,21 +41,33 @@
 </form>
 </section>
 
+
 <section>
-<form>
+	<img src="logo.png">
+	<p>Hotel Management Intelligent System</p>
+<form id="a2">
 	<label>HABITACION</label><input type="text">
+	<p></p>
 	<label>ID</label><input type="text">
-	<label>Tipo habitacion</label> <input type="text">
-	<label>Tipo pago</label> <input type="number">
-	<label>Costo por dia</label> <input type="number">
-	
-	<p>___________________________</p>
+	<label>Tipo habitacion</label><input type="text">
+	<label>Costo por dia</label><input type="text">
+	<label>Tipo pago</label>
+	<select>
+			<option>Efectivo</option>
+			<option>Cheque</option>
+			<option>Tarjeta</option>
+			<option>Deposito</option>
+			<option>Cortesia</option>
+		</select>
+
+	<p>________________________________</p>
 	
 	<input type="submit" value="IMPRIMIR FICHA">
-	<input type="submit" value="ACEPTAR">
-	<input type="submit" value="CANCELAR">
 </form>
 </section>
-
+<article>
+<input type="submit" value="ACEPTAR">
+<input type="submit" value="CANCELAR">
+</article>
 </body>
 </html>

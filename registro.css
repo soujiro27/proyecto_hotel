@@ -1,13 +1,30 @@
-form
+form#a1
 {
 	background: blue;
-	width: 80%;
+	width: 100%;
 	margin: 2% 2%;
 	border-radius: 15px;
 	box-shadow: 10px 10px 10px black;
 	text-align: center;
 	padding-top: 1px;
 	padding-bottom: 30px;
+	display: inline-block;
+	text-align: top;
+}
+
+form#a2
+{
+	background: blue;
+	width: 100%;
+	margin: 5% 2%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px black;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 30px;
+	display: inline-block;
+	text-align: top;
+	color: ;
 }
 
 label{
@@ -18,31 +35,35 @@ label{
 
 input
 {
-	border-radius: 10px; 
+	border-radius: 7px; 
 	margin-bottom: 20px;
+	width: 130px;
 }
 
 
-
-
-article p
+article
 {
-	padding-top: 25%;
-	vertical-align: top;
-	text-align: center;
+	text-align: right;
 	color: white;
+	margin-right: 210px;
+	margin-top: -20px
 }
 
-
-header h1
-{
-	text-shadow: 1px 1px 50px yellow;
-	text-align: center;
-	padding-top: -3%;
-	padding-bottom: -2%;
-}
 
 section {
-	display: inline-block;
+	width:38%;
+	display:inline-block;
 	vertical-align: top;
+	margin-right: 90px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+img{
+	height: 100px;
+	width: 150px;
+}
+
+body{
+	background: yellow;
 }
