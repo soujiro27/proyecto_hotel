@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 body
 {
 	background: #2c3e50;
@@ -31,6 +43,7 @@ section#contenido header
 {
 	background: #3498db;
 	min-height: 100px;
+	border-bottom: 5px solid orange;
 }
 
 section#contenido header h1,
@@ -47,10 +60,10 @@ section#contenido figure
 section#contenido header h1
 {
 	background: #e67e22;
-	border-radius: 0 20px 20px 0;
-	border-top: 3px solid white;
-	border-right: 3px solid white;
 	border-bottom: 3px solid white;
+	border-radius: 0 20px 20px 0;
+	border-right: 3px solid white;
+	border-top: 3px solid white;
 	color: white;
 	font-size: 45px;
 	margin:8px 0 0 0;
@@ -64,4 +77,54 @@ section#contenido header h2
 	font-size: 2em;
 	margin-left: 40px;
 	text-shadow:3px 3px 1px black;
+}
+
+section#menus_habitaciones
+{
+	text-align: center;
+}
+section#menus_habitaciones article  
+{
+	
+	background:#3498db;
+	border-radius: 50%;
+	color:white;
+	font-family:'icomoon';
+	height: 80px;
+	text-align: center;
+	width: 80px;
+	display: inline-block;
+	margin: 10px 35px;
+	border:3px solid orange
+}
+
+section#menus_habitaciones article  p
+{
+	text-align: center;
+	font-size: 2em;
+	margin: 7px 0 0 0;
+}
+
+section#menus_habitaciones article p span
+{
+	display: block;
+	color: black;
+	font-size: 16px;
+	
+}
+
+
+section#menus_habitaciones article#menu_sencilla p:before
+{
+	content: "\e600";
+}
+
+section#menus_habitaciones article#menu_doble p:before
+{
+	content: "\e601";
+}
+
+section#menus_habitaciones article#menu_suite p:before
+{
+	content: "\e602";
 }
