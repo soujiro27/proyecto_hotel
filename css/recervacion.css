@@ -1,0 +1,77 @@
+body 
+{
+	background: #D8D8D8;
+}
+#img 
+{
+	width: 200px;
+	height: 100px;
+	margin-left: 55%;
+}
+header
+{
+	background: yellow;
+}
+h2
+{
+	margin-left: 52%;
+	margin-top: 5%;
+}
+label
+{
+    display:inline-block;
+    margin-top:20px;
+}
+form
+{
+
+}
+#formulario1  
+{
+	width: 40%;
+	height: 30%;
+	background: #D8D8D8;
+	margin: 1%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: -7%;
+}
+#formulario2
+{
+	display: inline-block;
+	width: 40%;
+	height: 30%;
+	background: #D8D8D8;
+	margin: 1%;
+
+}
+#folio
+{
+	text-align: center;
+}
+#ciudad
+{
+	text-align: left;
+}
+#email
+{
+	text-align: left;
+}
+#botones
+{
+	margin: 3%;
+	text-align: center;
+}
+#habita
+{
+	text-align: left;
+}
+#anti
+{
+	text-align: left;
+}
+#boni 
+{
+	margin: 2%;
+	text-align: center;
+}
