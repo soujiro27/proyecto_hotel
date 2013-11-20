@@ -10,6 +10,7 @@ form#a1
 	padding-bottom: 30px;
 	display: inline-block;
 	text-align: top;
+	color: cyan;
 }
 
 form#a2
@@ -24,20 +25,39 @@ form#a2
 	padding-bottom: 30px;
 	display: inline-block;
 	text-align: top;
-	color: ;
+	color: cyan;
 }
 
 label{
 	display: inline-block;
+	width: 90px;
+	padding-top: 10px;
 }
 
+label#x1{
+	
+	width: 150px;
+}
 
+label#x2{
+	
+	width: 80px;
+
+}
 
 input
 {
 	border-radius: 7px; 
 	margin-bottom: 20px;
 	width: 130px;
+	border: none;
+	padding: 3px;
+}
+
+input#b1{
+	width: 50px;
+	padding-left: 10px;
+	margin-right:75px;
 }
 
 
@@ -65,5 +85,12 @@ img{
 }
 
 body{
-	background: yellow;
+	background: white;
+}
+h2{
+	color: orangered;
+}
+
+p{
+	color: orangered;
 }
