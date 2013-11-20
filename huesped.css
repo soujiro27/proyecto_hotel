@@ -1,0 +1,51 @@
+form
+{
+	background: blue;
+	width: 95%;
+	margin: 2% 2%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px black;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 30px;
+	display: inline-block;
+	text-align: top;
+	color: cyan;
+}
+
+label{
+	display: inline-block;
+	width: 90px;
+	padding-top: 10px;
+}
+
+input
+{
+	border-radius: 7px; 
+	margin-bottom: 20px;
+	width: 130px;
+	padding: 3px;
+}
+h2{
+	color: orangered;
+}
+
+table{
+	border-color: red;
+	border-spacing: 5px;
+	background-color: cyan;
+	margin-top: 20px;
+	color: red;
+}
+
+td,th{
+	border-left: none;
+	margin: 5px,5px,5px,5px;
+	width: 120px;
+	height: 20px;
+	font-size: 12px;
+}
+
+
+
+
