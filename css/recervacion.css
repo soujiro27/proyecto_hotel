@@ -7,10 +7,17 @@ body
 	width: 200px;
 	height: 100px;
 	margin-left: 55%;
+	border-radius: 5px;
+}
+#img img
+{
+	border-radius: 15px;
+	margin-top: 5%;
 }
 header
 {
 	background: yellow;
+	border-radius: 15px;
 }
 h2
 {
@@ -21,10 +28,17 @@ label
 {
     display:inline-block;
     margin-top:20px;
+    margin-left: 15px;
 }
 form
 {
 
+}
+input
+{
+	border-radius: 15px;
+	border: none;
+	padding: 3px;
 }
 #formulario1  
 {
@@ -35,6 +49,8 @@ form
 	display: inline-block;
 	margin-left: 20px;
 	margin-top: -7%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px black;
 }
 #formulario2
 {
@@ -43,6 +59,8 @@ form
 	height: 30%;
 	background: #D8D8D8;
 	margin: 1%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px black;
 
 }
 #folio
