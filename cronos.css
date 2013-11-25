@@ -1,0 +1,152 @@
+form
+{
+	background: brown;
+	width: 120%;
+	height: 500px;
+	margin: 2% 2%;
+	margin-left: -20px;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 30px;
+	display: inline-block;
+	text-align: top;
+}
+
+form#a1
+{
+	background: brown;
+	width: 80%;
+	height: 300px;
+	margin: 2% 2%;
+	margin-left: 130px;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 30px;
+	display: inline-block;
+	text-align: top;
+}
+
+label{
+	display: inline-block;
+	width: 90px;
+	padding-top: 10px;
+}
+
+label#x1{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: blue;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x2{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: green;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x3{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: purple;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x4{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: yellow;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x5{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: pink;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x6{
+	
+	width: 180px;
+	text-align: center;
+	margin-left: -395px;
+	background-color: orangered;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+label#x7{
+	
+	width: 180px;
+	margin-left: -190px;
+	margin-right: 40px;
+	background-color: red;
+	font-size: 20px;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+section {
+	width:38%;
+	display:inline-block;
+	vertical-align: top;
+	margin-right: 90px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+img{
+	height: 150px;
+	width: 1050px;
+}
+
+body{
+	background: white;
+}
+
+header{
+	text-align: center;
+}
+
+article{
+	margin-top: 10px;
+	text-align: center;
+}
+
+input{
+	border: none;
+	border-radius: 10px;
+	width: 80px;
+}
+
+input#b1{
+	border: none;
+	border-radius: 10px;
+	width: 500px;
+	height: 250px;
+	margin-top: 15px;
+
+}
+
+body{
+	background: #FF9900	;
+}
