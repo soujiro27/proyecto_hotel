@@ -12,23 +12,23 @@
 <body>
 
 <header>
-<h1>INGRESAR</h1>
+	<hgroup>
+	<h1>Homis</h1>
+	<h2>Hotel Manangment Intelligent System</h2>
+	<h3>Logeate</h3>
+	</hgroup>
 </header>
-<p></p>
-<form>
-	<article ="login();">
-	<p>LOGIN</p></article>
-	<label>USUARIO</label>
-	<input type="text" name="user" id="user" required>
-	<label>CONTRASEÑA</label>
-	<input type="password" name="pass">
-	<p>____________________________________</p>
-	<input type="submit" value="ENTRAR">
-</form>
 
-<footer>
-<p>HOTEL MANAGEMENT INTELLIGENT SYSTEM</p>
-</footer>
+<section id="logeo">
+	<form action="php/logeo.php" method="post">
+		<article>
+		<p id="userLogeo"></p>
+		</article>
+		<input type="text" required placeholder="Usuario" name="usuario">
+		<input type="password" required placeholder="Contraseña" name="contra">
+		<input type="submit" value="Sign in">
+	</form>
+</section>
 
 
 </body>
