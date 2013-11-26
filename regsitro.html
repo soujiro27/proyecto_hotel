@@ -13,76 +13,74 @@
 	</header>
 
 <section>
-<form id="a1">
+<form id="a1" method="POST" action="php/huesped.php">
 	<label>FOLIO</label>
 	<input type="text">
 	<p></p>
-	<label>Nombre</label><input type="text">
-	<label>Apellido</label> <input type="text">
+	<label>Nombre</label><input type="text" required name="nombre">
+	<label>Apellido</label><input type="text" required name="apellido">
 	<p></p>
-	<label id="x2">Adultos</label> <input type="number" id="b1">
-	<label id="x2">Niños</label> <input type="number" id="b1">
+	<label id="x2">Adultos</label> <input type="number" id="b1" required name="adultos">
+	<label id="x2">Niños</label> <input type="number" id="b1" required name="niños">
 	<p></p>
-	<label>Dias</label> <input type="number">
-	<label>Fecha entrada</label> <input type="date">
-	<label>Hora entrada</label> <input type="time">
-	<label>Fecha salida</label> <input type="date">
-	<label>Hora salida</label> <input type="time">
-	<label>E-mail</label> <input type="email">
+	<label>Dias</label> <input type="number" required name="dias">
+	<label>Fecha entrada</label> <input type="date" required name="fecha_entrada">
+	<label>Hora entrada</label> <input type="time" required name="hora_entrada">
+	<label>Fecha salida</label> <input type="date" required name="fecha_salida">
+	<label>Hora salida</label> <input type="time" required name="hora_salida">
+	<label>E-mail</label> <input type="email" required name="email">
 	<p></p>
-	<label>Casa</label> <input type="tel">
-	<label>Celular</label> <input type="tel">
-	<label>Voucher abierto</label> <input type="checkbox">
+	<label>Casa</label> <input type="tel" required name="tel">
+	<label>Celular</label> <input type="tel" required name="cel">
+	<label>Voucher abierto</label> <input type="checkbox" name="voucher" value="1">
 	<p></p>
-	<label>Titular de tarjeta</label><input type="text">
 
 	<label>Tipo de tarjeta</label>
-	<select>
-			<option>Master Card</option>
-			<option>VISA</option>
-			<option>American Express</option>
+	<select name="tipo_tarjeta">
+			<option value="1">Master Card</option>
+			<option value="2">VISA</option>
+			<option value="3">American Express</option>
 		</select>
 	
-	<label>Fecha vencimiento</label> <input type="date">
+	<label>Fecha vencimiento</label> <input type="date" name="fecha_vencimiento">
 
-	<label>Codigo de seguridad</label> <input type="text">
+	<label>Codigo de seguridad</label> <input type="text" name="seguridad">
 
 
 	<p>______________________________</p>
 	
-	<input type="submit" value="ACEPTAR">
-	<input type="submit" value="VACIAR">
-	<input type="submit" value="MODIFICAR">
-</form>
-</section>
+	<p></p>
+    </section>
 
-
-<section>
+	<section>
+	<article>	
 	<img src="logo.png">
 	<p>Hotel Management Intelligent System</p>
-<form id="a2">
-	<label id="x1">HABITACION</label><input type="text">
+    </article>
+
+	<label id="x1">HABITACION</label><input type="text" required name="habitacion">
 	<p></p>
-	<label>ID</label><input type="text">
-	<label>Tipo habitacion</label><input type="text">
-	<label>Costo por dia</label><input type="text">
+	<label>ID</label><input type="text" required name="id">
+	<label>Tipo habitacion</label><input type="text" required name="tipo_habitacion">
+	<label>Costo por dia</label><input type="text" required name="costo_dia">
 	<label>Tipo pago</label>
-	<select>
-			<option>Efectivo</option>
-			<option>Cheque</option>
-			<option>Tarjeta</option>
-			<option>Deposito</option>
-			<option>Cortesia</option>
+	<select required name="tipo_pago">
+			<option value="1">Tarjeta</option>
+			<option value="2">Cheque</option>
+			<option value="3">Efectivo</option>
+			<option value="4">Deposito</option>
+			<option value="5">Cortesia</option>
 		</select>
 
 	<p>________________________________</p>
+
+	<input type="submit" value="ACEPTAR">
+	<input type="submit" value="VACIAR">
+	<input type="submit" value="MODIFICAR">
 	
-	<input type="submit" value="IMPRIMIR FICHA">
 </form>
+	
 </section>
-<article>
-<input type="submit" value="ACEPTAR">
-<input type="submit" value="CANCELAR">
-</article>
+
 </body>
 </html>
