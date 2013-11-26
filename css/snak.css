@@ -1,0 +1,68 @@
+body 
+{
+	background: yellow;
+}
+header img
+{
+	width: 250px;
+	height: 150px;
+	border-radius: 15px;
+	margin-top: 0%;
+	float: right;
+	margin-right: 4%;
+}
+#jugos img 
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+#menus
+{
+	margin: 4%;
+	display: inline-block;
+	background: #80FF00;
+	text-align: center;
+	border-radius: 15px;
+}
+label
+{
+	display: inline-block;
+
+}
+input
+{
+	text-align: center;
+	padding: 3px;
+	border-radius: 15px;
+}
+#precio
+{
+	background: #FFFF00;
+	border-radius: 15px;
+}
+#cafes img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+#sodas img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+#aguas img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+#formularios
+{
+	background: green;
+	height: 400px;
+	border-radius: 15px;
+	margin: 2%;
+}
