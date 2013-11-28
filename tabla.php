@@ -40,6 +40,9 @@ if ($row=$consulta->rowCount()>0) {
 					<td>
 						Folio
 					</td>
+					<td>
+						Tipo Registro
+					</td>
 					<td >
 						Nombre
 					</td>
@@ -82,6 +85,7 @@ while ($fila=$consulta->fetch()) {
 
 echo "<tr>";
 echo "<td>".$fila['id']."</td>";
+echo "<td>".$fila['tipo_registro']."</td>";
 echo "<td>".$fila['nombre']."</td>";
 echo "<td>".$fila['apellido']."</td>";
 echo "<td>".$fila['adultos']."</td>";

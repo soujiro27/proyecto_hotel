@@ -5,121 +5,335 @@
 	<meta charset="UTF-8">
 	<meta name="description" content=" El placer de la variedad en un momento">
 	<link rel="stylesheet" type="text/css" href="css/snak.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/aparecer.js"></script>
+
 </head>
 
+
 <body>
-	<header>
-    <h1>SNACK</p>
-    <img src="snaklogo.png">
-	</header>
+  <header>
+      <section id="logo">
+      <img src="img/logosnack.png">
+      </section>
+  </header>
+ <h1>Snack</h1>
+<div id="contenedor">
+  <section id="formu1">
+    <form>
 
-<section id="menus">
-    <section id="jugos">
-        <h2>Snacks</h2>
-
-    	<img src="img/jfresa.png">
-    
-    	<img src="img/jkiwi.jpg">
-    	 
-     	<img src="img/jmango.jpg">
-    	
-    	<img src="img/jzana.jpg">
-    	
-    	<img src="img/jbeta.jpg">
-    	
-    	<img src="img/jnara.jpg">
-
-        <img src="img/frape.jpg">
-    
-        <img src="img/oreo.jpg">
-
-        <img src="img/coca.jpg">
-    
-        <img src="img/zero.jpg">
-         
-        <img src="img/lig.jpg">
-        
-        <img src="img/fanta.jpg">
-
-        <img src="img/naranja.jpg">
-    
-        <img src="img/jamaica.jpg">
-         
-        <img src="img/melon.jpg">
-        
-        <img src="img/sandia.jpg">
-        
-        <img src="img/pepino.jpg">
-        
-        <img src="img/papaya.jpg">
+        <label id="fo">folio</label>
+        <input id="" type="text"><br>
         <p></p>
+        <label>cliente</label>
+        <input class="cli" type="text">
 
-    	
+        <label>No. Habitacion</label>
+        <input type="text">
 
-    
-    </section>
-</section>
-    
-<section id="formularios">
-
-<label for="">FOLIO</label>
-<input type="" name="" id="" />
-<p></p>
-<label for="">Cliente</label>
-<input type="" name="" id="" />
-<p></p>
-<label for="">Cantidad</label>
-<input type="number" name="" id="" />
-<p></p>
-<label>Forma de Pago</label>
-    <select>
-            <option>Efectivo</option>
-            <option>Tarjeta</option>
-            <option>Cheque</option>
-            <option>Cortesia</option>
+        <label>Forma de pago</label>
+        <select>
+          <option>tarjeta</option>
+          <option>efectivo</option>
+          <option>cheque</option>
         </select>
+
+        <label>Fecha</label>
+        <input type="date" >
         <p></p>
+      </form>
 
-<input type="submit" value="Guardar" readonly="readonly" />
+  </section>
+  </div>
 
-<table  width="100%" border="2"  bordercolor="black">
-    <tr>
-                <th>Codigo</th>
-                <th>Precio</th>
-                <th>Cantidad</th>
-                <th>Total</th>
-    </tr>
-    <tr>
-        <td><?php echo $row['codigo']; ?></td>
-        <td><?php echo $row['presio']; ?></td>
-        <td><?php echo $row['cantidad']; ?></td>
-        <td><?php echo $row['total']; ?></td>
-    </tr>
-</table>
-<p></p>
+  <div class="menu">
+  <!--Jugos-->
+    <div class="comida">
+    <center><h2>Jugos</h2></center>
+      <table>
+        <tr>
+        <td>
+            <img id="jufresa" src="img/jfresa.png">
+            <br>
+            <b>
+            <span>Fresa</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
 
+        <td>
+            <img id="jukiwi" src="img/jkiwi.jpg">
+            <br>
+            <b>
+            <span>Kiwi</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
 
-<label for="">Total a pagar</label>
-<input type="" name="" id="" />
-<p></p>
-<label for="">Recibo</label>
-<input type="" name="" id="" />
-<p></p>
-<label for="">Cambio</label>
-<input type="" name="" id="" />
-<p></p> 
+        <td>
+          <img id="jumango" src="img/jmango.jpg">
+            <br>
+            <b>
+            <span>Mango</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
 
+        <td>
+            <img id="juzana" src="img/jzana.jpg">
+            <br>
+            <b>
+            <span>Zanahorea</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
 
+        <td>
+            <img id="jubeta" src="img/jbeta.jpg">
+            <br>
+            <b>
+            <span>Betabel</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
 
-<input type="submit" value="Limpiar" readonly="readonly" />
-<p></p>
-<input type="submit" value="IMPRIMIR" readonly="readonly" />
+        <td>
+            <img id="junara" src="img/jnara.jpg">
+            <br>
+            <b>
+            <span>Naranja</span>
+            <br>
+            <span>Precio: $30.00</span>
+            </b>
+        </td>
+        </tr>
+      </table>
+      <!--Cafes-->
+      <div class="cafes">
+      <center><h2>Bebidas</h2></center>
+        <table>
+        <tr>
+        <td>
+          <img id="puchino" src="img/frape.jpg">
+          <br>
+          <b>
+          <span>Frapuchino</span>
+          <br>
+          <span>Precio: $25.00</span>
+          </b>
+        </td>
 
- 
+        <td>
+          <img id="oreo" src="img/oreo.jpg">
+          <br>
+          <b>
+          <span>Frapeoreo</span>
+          <br>
+          <span>Precio: $25.00</span>
+          </b>
+        </td>
+        </tr>
+      </table>
+      </div>
 
-</section>
+      <!--Sodas-->
+      <div class="sodas">
+      <center><h2>Bebidas</h2></center>
+        <table>
+        <tr>
+        <td>
+          <img id="coca" src="img/coca.jpg">
+          <br>
+          <b>
+          <span>Coca Cola</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
 
+        <td>
+          <img id="zero" src="img/zero.jpg">
+          <br>
+          <b>
+          <span>Coca Cola Zero</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
 
+        <td>
+          <img id="fanta" src="img/fanta.jpg">
+          <br>
+          <b>
+          <span>Fanta</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
+        </tr>
+      </table>
+      </div>
 
+      <!--Aguas-->
+      <div class="pastas">
+      <center><h2>Pastas</h2></center>
+        <table>
+        <tr>
+        <td>
+          <img id="anara" src="img/naranja.jpg">
+          <br>
+          <b>
+          <span>A. Naranja</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
+
+        <td>
+          <img id="ajamaica" src="img/jamaica.jpg">
+          <br>
+          <b>
+          <span>A. Jamaica</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
+
+        <td>
+          <img id="amelon" src="img/melon.jpg">
+          <br>
+          <b>
+          <span>A. Melon</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
+
+        <td>
+          <img id="asandi" src="img/sandia.jpg">
+          <br>
+          <b>
+          <span>A. Sandia</span>
+          <br>
+          <span>Precio: $20.00</span>
+          </b>
+        </td>
+        </tr>
+      </table>
+      </div>
+
+    </div>
+
+    <div class="pedido">
+    =PEDIDO=
+    </div>
+  </div>
+</div>
 </body>
+
+
+
+<script language="javascript">
+
+
+
+$(document).ready(function(){   
+   
+   $("#jufresa").click(function(e){
+      var jufresa = $('<section id="pedido" value="1">Jugo de Fresa</section>');
+      jufresa.appendTo($(".pedido"));
+   });
+
+   $("#jukiwi").click(function(e){
+      var jukiwi = $('<section id="pedido" value="2">Jugo de Kiwi</section>');
+      jukiwi.appendTo($(".pedido"));
+   });
+
+   $("#jumango").click(function(e){
+      var jumango = $('<section id="pedido" value="3">Jugo de Mango</section>');
+      jumango.appendTo($(".pedido"));
+   });
+
+   $("#juzana").click(function(e){
+      var juzana = $('<section id="pedido" value="4">Jugo de Zanahorea</section>');
+      juzana.appendTo($(".pedido"));
+   });
+
+   $("#jubeta").click(function(e){
+      var jubeta = $('<section id="pedido" value="5">Jugo de Betabel</section>');
+      jubeta.appendTo($(".pedido"));
+   });
+
+   $("#junara").click(function(e){
+      var junara = $('<section id="pedido" value="6">Jugo de Naranja</section>');
+      junara.appendTo($(".pedido"));
+   });
+
+   $("#puchino").click(function(e){
+      var puchino = $('<section id="pedido" value="7">Frapuchino</section>');
+      puchino.appendTo($(".pedido"));
+   });
+
+   $("#oreo").click(function(e){
+      var oreo = $('<section id="pedido" value="8">Frapeoreo</section>');
+      oreo.appendTo($(".pedido"));
+   });
+
+   $("#coca").click(function(e){
+      var coca = $('<section id="pedido" value="9">Coca Cola</section>');
+      coca.appendTo($(".pedido"));
+   });
+   $("#zero").click(function(e){
+      var zero = $('<section id="pedido" value="10">Coca Cola Zero</section>');
+      zero.appendTo($(".pedido"));
+   });
+   $("#lig").click(function(e){
+      var lig = $('<section id="pedido" value="11">Coca Cola Ligth</section>');
+      lig.appendTo($(".pedido"));
+   });
+   $("#fanta").click(function(e){
+      var fanta = $('<section id="pedido" value="12">Fanta</section>');
+      fanta.appendTo($(".pedido"));
+   });
+
+   $("#anara").click(function(e){
+      var anara = $('<section id="pedido" value="13">A. Naranja</section>');
+      anara.appendTo($(".pedido"));
+   });
+
+   $("#ajamaica").click(function(e){
+      var ajamaica = $('<section id="pedido" value="14">A. Jamaica</section>');
+      ajamaica.appendTo($(".pedido"));
+   });
+
+   $("#amelon").click(function(e){
+      var amelon = $('<section id="pedido" value="15">A. Melon</section>');
+      amelon.appendTo($(".pedido"));
+   });
+
+   $("#asandi").click(function(e){
+      var asandi = $('<section id="pedido" value="16">A. Sandia</section>');
+      asandi.appendTo($(".pedido"));
+   });
+
+   $("#apepino").click(function(e){
+      var apepino = $('<section id="pedido" value="17">A. Pepino</section>');
+      apepino.appendTo($(".pedido"));
+   });
+
+   $("#apapaya").click(function(e){
+      var apapaya = $('<section id="pedido" value="18">A. Papaya</section>');
+      apapaya.appendTo($(".pedido"));
+   });
+
+
+
+
+})
+</script>
 </html>

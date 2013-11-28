@@ -3,7 +3,7 @@ include("php/conexion.php");
 
 $folio=$_POST['folio'];
 
-$consulta=$pdo->prepare("SELECT * FROM registro_huesped where id='$folio'");
+$consulta=$pdo->prepare("SELECT * FROM registro_huesped where id='$folio' and tipo_registro='reserv'");
 $consulta->execute();
 
 echo "
@@ -12,6 +12,9 @@ echo "
 				<tr> 
 					<td>
 						Folio
+					</td>
+					<td>
+						Tipo de Registro
 					</td>
 					<td >
 						Nombre
@@ -55,6 +58,7 @@ while ($fila=$consulta->fetch()) {
 
 echo "<tr>";
 echo "<td>".$fila['id']."</td>";
+echo "<td>".$fila['tipo_registro']."</td>";
 echo "<td>".$fila['nombre']."</td>";
 echo "<td>".$fila['apellido']."</td>";
 echo "<td>".$fila['adultos']."</td>";

@@ -1,53 +1,127 @@
-body 
+body
 {
-	background: yellow;
-}
-header img
-{
-	width: 250px;
-	height: 150px;
-	border-radius: 15px;
-	margin-top: 0%;
-	float: right;
-	margin-right: 4%;
-}
-#jugos img 
-{
-	width: 120px;
-	height: 120px;
-	border-radius: 15px;
-}
-#menus
-{
-	margin: 4%;
-	display: inline-block;
-	background: #80FF00;
-	text-align: center;
-	border-radius: 15px;
-}
-label
-{
-	display: inline;
-
+	background: green;
 }
 input
 {
-	text-align: center;
-	padding: 3px;
+	border-radius: 7px;
+}
+
+img
+{
+	width: 200px;
+}
+
+label
+{
+	font-family: 'Andika', sans-serif;
+	margin:0 0 0 60px;
+}
+
+table
+{
+	margin-left: 4px;
+}
+span
+{
+	margin-left: 25%;
+}
+
+.pastas table
+{
+	margin-left: 0px;
+}
+
+.pastas img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+.sodas img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+.cafes img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+.comida img
+{
+	width: 150px;
+	height: 150px;
 	border-radius: 15px;
 }
 
-#formularios
+#contenedor
 {
-	background: #80FF00;
-	height: 500px;
+	width: 100%;
+	margin-left: 2%;
+}
+
+#formu1
+{
+	width: 90%;
+	background: yellow;
+	border-radius: 4px;
+	margin: .6%;
+	height: 200%;
 	border-radius: 15px;
-	margin: 1%;
-	text-align: center;
 }
-#folio 
+
+.cli
 {
-	float: right;
+	width: 50%;
+	margin: 0 50px 30px 0;
 }
+
+.comida
+{
+	width: 70%;
+	background: yellow;
+	display: inline-block;
+}
+
+.pedido
+{
+	background: yellow;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+	border-radius: 5px;
+	text-align: center;
+	float: left;
+}
+ form img
+ {
+ 	width: 160px;
+ 	height: 80px;
+ 	float: right;
+ 	border-radius: 15px;
+ }
+ h1
+ {
+ 	text-align: center;
+ }
+#logo
+{
+	width: 600px;
+	height: 180px;
+	background: yellow;
+	border-radius: 15px;
+}
+#logo img
+{
+
+	width: 600px;
+	height: 180px;
+
+}
+
 
 
